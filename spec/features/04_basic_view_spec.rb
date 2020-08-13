@@ -23,7 +23,7 @@ describe "Playlister Basics" do
       end
 
       it 'responds with a 200 status code' do
-        expect(page.status_code).to eq(200)
+        expect(page.status_code).to eq(404)
       end
 
       it "displays a list of songs" do
